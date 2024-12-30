@@ -1,5 +1,5 @@
 ---
-
+import Header from '../components/Header.tsx';
 
 interface Props {
   title: string;
@@ -35,6 +35,7 @@ const {
 		<title>{title}</title>
 	</head>
 	<body>
+        <Header />
 		<slot />
 	</body>
 </html>
